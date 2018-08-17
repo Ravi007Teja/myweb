@@ -1,13 +1,19 @@
 <html>
-    <head>
-        <title>Enter two numbers to add</title>
-    </head>
-    
-    <body>
-        <form action="./add.jsp">
-            First number: <input type="text" name="t1"/>
-            Second number: <input type="text" name="t2"/>
-            <input type="submit" value="SUBMIT" />
-        </form>
-    </body>
+<head>
+<script>
+function add(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a + b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+Enter the First number : <input id="first">
+Enter the Second number: <input id="second">
+<button onclick="add()">Add</button>
+<input id="answer">
+</body>
 </html>
