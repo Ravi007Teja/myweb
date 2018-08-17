@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Enter two numbers to add up</title>
+        <title>Enter two numbers to add</title>
     </head>
     
     <body>
